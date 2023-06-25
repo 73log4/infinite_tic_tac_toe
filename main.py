@@ -14,8 +14,8 @@ def start_game_against_bot():
 
     pygame.init()
     pygame.display.set_caption('Tic Tac Toe')
-    pygame_icon = pygame.image.load('icon.png')
-    pygame.display.set_icon(pygame_icon)
+    # pygame_icon = pygame.image.load('icon.png')
+    # pygame.display.set_icon(pygame_icon)
     screen = pygame.display.set_mode((SCREEN_SIZE, SCREEN_SIZE))
 
     mouse = [0, 0]
