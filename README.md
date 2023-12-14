@@ -4,7 +4,11 @@ Infinite Tic Tac Toe is played on a "infinite" board (although finite in the pro
 https://en.wikipedia.org/wiki/M,n,k-game.
 
 To play the game you need to first install pygame. You can do that by running the following command in the command prompt:
-> pip install pygame
-Then download all the files in the repository and run main.py
+
+> pip install pygame.
+
+Then download all the files in the repository and run main.py.
+
+To change the settings you can change the value of the variables in util.py.
 
 
