@@ -76,11 +76,11 @@ def draw_end_game_result(screen, winner):
     font = pygame.font.SysFont("calibri", 42)
     text = font.render(f'Player {PLAYER_ID[winner]} Wins!', True, PLAYERS_COLOR, SCREEN_COLOR)
     text_rect = text.get_rect()
-    text_rect.center = (SCREEN_SIZE // 2, 35)
+    text_rect.center = (SCREEN_SIZE // 2, 28)
     screen.blit(text, text_rect)
     text2 = font.render('To play again press 3', True, PLAYERS_COLOR, SCREEN_COLOR)
     text_rect2 = text2.get_rect()
-    text_rect2.center = (SCREEN_SIZE // 2, 60)
+    text_rect2.center = (SCREEN_SIZE // 2, 70)
     screen.blit(text2, text_rect2)
 
 def draw_start_text(screen):
