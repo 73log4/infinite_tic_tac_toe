@@ -172,7 +172,6 @@ def best_move_2(board, possible_moves, bot_turn=True):
     if len(possible_moves) == 8:  # beginning of game - play random
         return random.sample(possible_moves, 1)[0]
     move = mini_max(board, possible_moves, cnt, maximizing_player=max_score)[1]
-    print(cnt[0])
     return move
 
 def best_move(board, possible_moves, max_score=True):
